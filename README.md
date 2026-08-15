@@ -25,11 +25,9 @@ A source release for the DeepSeek Harness image-transcription feature. It is imp
 1. Open **Settings → Models**.
 2. In **Image transcription model**, select the visual provider and model to use when the primary model is text-only.
 3. Expand **Configuration** and enter the provider API key, endpoint, protocol, and available model ID.
-4. Save the configuration, then send an image in a text-only model conversation.
+4. Save the configuration.
 
 ![Image transcription model configuration](assets/image-transcription-model-configuration.png)
-
-The screenshot uses a masked API key and obscured endpoint. Do not commit real API keys or private provider URLs.
 
 ## License and attribution
 
