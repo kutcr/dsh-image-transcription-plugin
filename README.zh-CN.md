@@ -20,6 +20,17 @@
 - `recall_image` 只向视觉路由发送被引用图片批次与当前问题。
 - Web 界面显示图像转述耗时状态，并保留清晰的失败信息。
 
+## 配置图像转述模型
+
+1. 打开 **设置 → 模型**。
+2. 在 **图像转述模型** 中选择主模型为纯文本时使用的视觉提供方和模型。
+3. 展开 **配置**，填写提供方 API 密钥、地址、协议和可用模型 ID。
+4. 保存配置后，在纯文本模型对话中发送图片即可开始转述。
+
+![图像转述模型配置](assets/image-transcription-model-configuration.png)
+
+截图中的 API 密钥已掩码，地址已模糊处理；请勿提交真实 API 密钥或私有提供方地址。
+
 ## 许可证与署名
 
 本发布包包含对 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的修改，遵循 MIT 许可证。二次分发时请保留随附的 `LICENSE` 和上游署名。
