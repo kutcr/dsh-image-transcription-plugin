@@ -22,6 +22,8 @@ A source release for the DeepSeek Harness image-transcription feature. It is imp
 
 ## Configure the image-transcription model
 
+This plugin requires an image-transcription model configuration before it can process images.
+
 1. Open **Settings → Models**.
 2. In **Image transcription model**, select the visual provider and model to use when the primary model is text-only.
 3. Expand **Configuration** and enter the provider API key, endpoint, protocol, and available model ID.
